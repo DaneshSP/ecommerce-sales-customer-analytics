@@ -1,0 +1,7 @@
+venv/
+data/raw/
+data/cleaned/
+*.pyc
+__pycache__/
+.ipynb_checkpoints/
+ecommerce.db
