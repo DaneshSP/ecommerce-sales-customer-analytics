@@ -71,3 +71,7 @@ ecommerce-analytics/
 ## Data Source
 
 Olist Brazilian E-Commerce Public Dataset on Kaggle, licensed CC BY-NC-SA 4.0. The Power BI report contains an embedded copy of the cleaned data, shared here under the same license with attribution to Olist. The original raw CSV files are not included in this repository.
+## Notebook Notes
+
+- 01_exploration.ipynb: cleaning and sales analysis. Its customer section (RFM, repeat vs one-time, cohort retention) is the first attempt and groups by customer_id, so it is superseded.
+- 02_customer_analysis.ipynb: the corrected customer analysis using customer_unique_id. The Power BI dashboard uses this version.
